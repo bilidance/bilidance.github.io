@@ -2,29 +2,10 @@
     
     <body>
        
-<span id="totalSecond">2</span>
+
 
 <script language="javascript" type="text/javascript">
-    var second = document.getElementById('totalSecond').textContent;
-
-    if (navigator.appName.indexOf("Explorer") > -1) {
-        second = document.getElementById('totalSecond').innerText;
-    } else {
-        second = document.getElementById('totalSecond').textContent;
-    }
-
-    setInterval("redirect()", 1000);
-    function redirect() {
-        if (second < 0) {
-            location.href = 'https://edu.aitbook.me/auth/register?code=UyXR0dic';
-        } else {
-            if (navigator.appName.indexOf("Explorer") > -1) {
-                document.getElementById('totalSecond').innerText = second--;
-            } else {
-                document.getElementById('totalSecond').textContent = second--;
-            }
-        }
-    } 
+  location.href = 'https://edu.aitbook.me/auth/register?code=UyXR0dic';
 </script>
     </body>
    
